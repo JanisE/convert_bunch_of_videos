@@ -6,7 +6,7 @@ My dashcam is saving video into MOV files taking up about 100 MB per 1 minute.
 
 I want to compress them to take up less space for storage.
 
-Getting ffmpeg to encode the videos to MKV using NVidia HVEC hardware encoder (CUDA/NVENC) was too difficult for me. On the other hand, Avidemux GUI allows to select NVidia HVEC encoder and set its options out of the box. So, how to get Avidemux to easily convert a lot of files in one go?
+Getting ffmpeg to encode the videos to MKV using Nvidia HVEC hardware encoder (CUDA/NVENC) was too difficult for me. On the other hand, Avidemux GUI allows to select Nvidia HVEC encoder and set its options out of the box. So, how to get Avidemux to easily convert a lot of files in one go?
 
 ## Converting videos
 
