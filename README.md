@@ -12,6 +12,7 @@ Getting ffmpeg to encode the videos to MKV using NVidia HVEC hardware encoder (C
 
 In Avidemux, if you set all the encoding configuration, you can save it as a Python script (File -> Project Script -> Save As Project). You can then run Avidemux and load the project in one go by
 ```bash
+# (Assuming mov_to_mkv.py is in the current directory.)
 /home/path/to/avidemux_2.8.1.appImage --run mov_to_mkv.py
 ```
 
@@ -20,6 +21,10 @@ I've modified the Python script to actually convert/save the video to a file and
 This (sample) script contains configuration for converting MOV files to MKV with HVEC video codec using bitrate=3000: [mov_to_mkv.py](mov_to_mkv.py). It produced 3-4 times smaller MKV video files than the original MOVs.
 
 In addition, I use script [adjust_timestamps.sh](adjust_timestamps.sh) in order to set file timestamps to the new files from the original ones. This may be useful if the original files do have the actual correct timestamps of the recording.
+```bash
+# Place the file and execute this in the folder containing the original MOVs and the new MKVs:
+./adjust_timestamps.sh
+```
 
 ## Room for Improvement
 
