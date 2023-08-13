@@ -30,7 +30,7 @@ In addition, I use script [adjust_timestamps.sh](adjust_timestamps.sh) in order 
 
 ### Directory of files to be converted
 
-The Avidemux Python scripts support a small subset of the actual Python (more documentation available in an [Avidemux forum thread](https://avidemux.org/smif/index.php?topic=19390.0), so I did not manage to pass in the **directory** dynamically – it is to be edited in the script code.
+The Avidemux Python scripts support a small subset of the actual Python (more documentation available in an [Avidemux forum thread](https://avidemux.org/smif/index.php?topic=19390.0)), so I did not manage to pass in the **directory** dynamically – it is to be edited in the script code.
 
 ### GUI popping up
 
